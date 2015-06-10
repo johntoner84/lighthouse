@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="lighthouse.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<title>Donate</title>
+	</head>
+
+	<body>
+		<nav class="main">
+			<ul class="main">
+				<li class="main">Home</li>
+				<li class="main">Our Story</li>
+				<li class="main">Donate</li>
+				<li class="main">Our Entreprenuers</li>
+
+			</ul>
+		</nav>
+
+		<div class="page_container">
+			<form class = "form" onsubmit="return confirm('Thank you for your donation!')">
+					<p><b>Name</b></p>
+					<p>First Name: <input type="text" name="first_name"></p>
+					<p>Last Name: <input type="text" name="last_name"></p><br />
+
+					<p><b>Contact Information:</b></p>
+					<p>Billing address line 1: <input type="text" name="billing_address_1"></p>
+					<p>Billing address line 2: <input type="text" name="billing_address_2"></p>
+					<p>Email address: <input type="text" name="email"><p>
+					<p>Phone number: <input type="number" name="phone"></p><br />
+
+					<p><b>Credit Card</b></p>
+					<p>Card type: <input type="text" name="card_type"></p>
+					<p>Name as it appears on card: <input type="text" name="name_on_card"></p>
+					<p>Card number: <input type="number" name="card_number"></p>
+					<p>Security code: <input type="number" name="sec_code"></p>
+					<p><input type="submit" name = "submit" on click="show_alert("Thank you!");"></p>
+
+			</form>
+
+		</div class="page_container">
+
+	</body>
