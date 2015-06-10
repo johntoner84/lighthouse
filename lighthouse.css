@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .logo{
 	display: inline-block;
 	font-size: 40px;
@@ -153,3 +154,27 @@ button.profiledonate{
 
 
 }
+=======
+.timeline_detail{
+	font-size: 16px;
+	text-align: justify;
+	margin-right: 20px;
+}
+
+.timeline {
+	font-size: 40px;
+	text-decoration: none;
+	text-align: left;
+	color: gray;
+}
+
+.timeline li {
+	list-style: none;
+}
+
+
+.timeline li a{
+	color: inherit;
+	text-decoration: none;
+}
+>>>>>>> 6785880a5a193033f6135da6f5fe324b6173d1fa
